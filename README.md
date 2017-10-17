@@ -1,5 +1,5 @@
 # AndroidWeatherApp
-Created using Android Studio
+Created using Android Studio. 
 An application that allows the user to view hourly weather data and details.
 
 Initial Screen: Enter City and State
