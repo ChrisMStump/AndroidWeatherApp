@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cityField" type="id" />
+    <item name="stateField" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="cityStateField" type="id" />
+    <item name="tempField" type="id" />
+    <item name="updatedTime" type="id" />
+    <item name="timeField" type="id" />
+    <item name="descField" type="id" />
+    <item name="temperatureField" type="id" />
+    <item name="hourlyData" type="id" />
+    <item name="currentLocation" type="id" />
+    <item name="hourlyListView" type="id" />
+    <item name="curLocAndTime" type="id" />
+    <item name="maxTemp" type="id" />
+    <item name="minTemp" type="id" />
+    <item name="feelsLike" type="id" />
+    <item name="humidityField" type="id" />
+    <item name="dewpointField" type="id" />
+    <item name="pressureField" type="id" />
+    <item name="cloudsField" type="id" />
+    <item name="windsField" type="id" />
+</resources>

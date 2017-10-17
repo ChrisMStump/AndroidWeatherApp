@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="12dp"
+    tools:context="com.example.chris.weatherapplication.Details">
+
+    <TextView
+        android:id="@+id/curLocAndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Location and Time" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curLocAndTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/temperatureField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="Temperature"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/descField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperatureField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="Description"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/maxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="MaxTemp"
+        android:layout_below="@+id/descField" />
+
+    <TextView
+        android:id="@+id/minTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/maxTemp"
+        android:layout_alignStart="@+id/maxTemp"
+        android:layout_below="@+id/maxTemp"
+        android:layout_marginTop="4dp"
+        android:text="TextView" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/minTemp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view" />
+
+    <TextView
+        android:id="@+id/feelsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/minTemp"
+        android:layout_alignStart="@+id/minTemp"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="14dp"
+        android:text="Feels Like" />
+
+    <TextView
+        android:id="@+id/humidityField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/feelsLike"
+        android:layout_alignStart="@+id/feelsLike"
+        android:layout_below="@+id/feelsLike"
+        android:layout_marginTop="16dp"
+        android:text="Humidity" />
+
+    <TextView
+        android:id="@+id/dewpointField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/humidityField"
+        android:layout_alignStart="@+id/humidityField"
+        android:layout_below="@+id/humidityField"
+        android:layout_marginTop="16dp"
+        android:text="Dewpoint" />
+
+    <TextView
+        android:id="@+id/pressureField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dewpointField"
+        android:layout_alignStart="@+id/dewpointField"
+        android:layout_below="@+id/dewpointField"
+        android:layout_marginTop="16dp"
+        android:text="Pressure" />
+
+    <TextView
+        android:id="@+id/cloudsField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pressureField"
+        android:layout_alignStart="@+id/pressureField"
+        android:layout_below="@+id/pressureField"
+        android:layout_marginTop="16dp"
+        android:text="Clouds" />
+
+    <TextView
+        android:id="@+id/windsField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cloudsField"
+        android:layout_alignStart="@+id/cloudsField"
+        android:layout_below="@+id/cloudsField"
+        android:layout_marginTop="16dp"
+        android:text="Winds" />
+</RelativeLayout>

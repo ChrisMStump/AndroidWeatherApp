@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="submitButton">Submit</string>
+    <string name="textView">Favorites</string>
+    <string name="textView2">There is no city in your Favorites</string>
+    <string name="hourlyDate">Hourly Data</string>
+</resources>
